@@ -1,10 +1,10 @@
 import { useState } from "react";
 import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+    Card,
+    CardContent,
+    CardFooter,
+    CardHeader,
+    CardTitle,
 } from "@/components/ui/card";
 import { TravelPlannerForm } from "./TravelPlannerForm";
 import { TravelPlannerResult } from "./TravelPlannerResult";
@@ -23,7 +23,7 @@ export const TravelPlanner = () => {
         <Card className="w-full max-w-3xl mx-auto">
             <CardHeader>
                 <CardTitle className="text-2xl font-bold text-center">
-                    Dennis super Reseplanerare
+                    Dennis Reseplanerare
                 </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
